@@ -1,10 +1,4 @@
-.name{
-  font-weight: bolder;
-  font-size: large;
-}
-
 .mainpage{
-    margin: 20px;
     text-align: center;
     justify-content: center;
     background-color: rgba(37, 150, 190, 1);
