@@ -6,6 +6,7 @@
 .mainpage{
     margin: 20px;
     text-align: center;
+    justify-content: center;
     background-color: rgba(37, 150, 190);
     border: 3px #333 solid;
     padding: 20px;
