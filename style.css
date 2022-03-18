@@ -1,6 +1,7 @@
 .mainpage{
     text-align: center;
-    border: 3px solid blue;
+    background-color: rgb(8, 164, 175, 1);
+    border: 3px solid;
     padding: 20px;
     position: absolute;
     left: 50%;
