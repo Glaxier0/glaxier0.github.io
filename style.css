@@ -1,9 +1,11 @@
 .mainpage{
     text-align: center;
-    justify-content: center;
-    background-color: rgba(37, 150, 190, 1);
     border: 3px solid blue;
     padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .mainpage h1{
