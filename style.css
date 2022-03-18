@@ -1,8 +1,7 @@
 .mainpage{
     text-align: center;
-    background-color: rgba(8, 164, 175, 1);
-    border: 3px solid;
-    border-colour: rgba(0, 139, 139,1)
+    background-color: rgb(8, 164, 175, 0.6);
+    border: 3px solid darkcyan;
     padding: 20px;
     position: absolute;
     left: 50%;
@@ -11,11 +10,9 @@
 }
 
 .mainpage h1{
-    color: grey;
     margin: 5px;
 }
 
 .mainpage p{
-    color: grey;
     margin: 1px;
 }
