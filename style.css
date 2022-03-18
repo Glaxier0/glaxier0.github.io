@@ -1,1 +1,23 @@
+.name{
+  font-weight: bolder;
+  font-size: large;
+}
 
+.mainpage{
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(60, 69, 60, 0.9);
+    border: 3px #333 solid;
+    padding: 20px;
+    padding-bottom: 25px;
+}
+
+.mainpage h1{
+    color: white;
+    margin: 5px;
+}
+
+.mainpage p{
+    color: white;
+    margin: 1px;
+}
