@@ -1,31 +1,37 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 15px;
   grid-auto-rows: minmax(100px, auto);
-  background-color: rgb(8, 164, 175, 0.6);
+  background-color: rgba(211, 211, 211, 0.3)  
 }
 .one {
-  grid-column: 1 / 3;
+  grid-column: 1/4;
   grid-row: 1;
+  background-color: rgb(8, 164, 175);
 }
 .two {
-  grid-column: 2 / 4;
-  grid-row: 1 / 3;
+  grid-column: 1;
+  grid-row: 4 / 8;
+  background-color: rgb(8, 164, 175);
 }
 .three {
-  grid-column: 1;
-  grid-row: 2 / 5;
+  grid-column: 2;
+  grid-row: 4 / 6;
+  background-color: rgb(8, 164, 175);
 }
 .four {
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 4 / 6;
+  background-color: rgb(8, 164, 175);
 }
 .five {
   grid-column: 2;
-  grid-row: 4;
+  grid-row: 6 / 8;
+  background-color: rgb(8, 164, 175);
 }
 .six {
   grid-column: 3;
-  grid-row: 4;
+  grid-row: 6 / 8;
+  background-color: rgb(8, 164, 175);
 }
