@@ -1,22 +1,3 @@
-.mainpage{
-    text-align: center;
-    background-color: rgb(8, 164, 175, 0.6);
-    border: 3px solid darkcyan;
-    padding: 20px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.mainpage h1{
-    margin: 5px;
-}
-
-.mainpage p{
-    margin: 1px;
-}
-
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
