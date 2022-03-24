@@ -14,30 +14,35 @@
 
 }
 .two {
+  text-align: center;
   grid-column: 1;
   grid-row: 4 / 8;
   background-color: rgb(8, 164, 175);
   border-radius: 40px;
 }
 .three {
+  text-align: center;
   grid-column: 2;
   grid-row: 4 / 6;
   background-color: rgb(8, 164, 175);
   border-radius: 40px;
 }
 .four {
+  text-align: center;
   grid-column: 3;
   grid-row: 4 / 6;
   background-color: rgb(8, 164, 175);
   border-radius: 40px;
 }
 .five {
+  text-align: center;
   grid-column: 2;
   grid-row: 6 / 8;
   background-color: rgb(8, 164, 175);
   border-radius: 40px;
 }
 .six {
+  text-align: center;
   grid-column: 3;
   grid-row: 6 / 8;
   background-color: rgb(8, 164, 175);
