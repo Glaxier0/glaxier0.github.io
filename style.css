@@ -9,6 +9,7 @@
   grid-column: 1/4;
   grid-row: 1;
   background-color: rgb(8, 164, 175);
+  text-align: center;
 }
 .two {
   grid-column: 1;
