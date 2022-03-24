@@ -1,18 +1,30 @@
-.mainpage{
-    text-align: center;
-    background-color: rgb(8, 164, 175, 0.6);
-    border: 3px solid darkcyan;
-    padding: 20px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
-
-.mainpage h1{
-    margin: 5px;
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
 }
-
-.mainpage p{
-    margin: 1px;
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
 }
