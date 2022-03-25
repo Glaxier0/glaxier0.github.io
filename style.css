@@ -1,9 +1,11 @@
+.background {
+  background-color: rgba(211, 211, 211, 0.5); 
+}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   grid-auto-rows: minmax(100px, auto);
-  background-color: rgba(211, 211, 211, 0.3); 
 }
 .one {
   grid-column: 1/4;
