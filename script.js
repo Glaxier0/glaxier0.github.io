@@ -1,6 +1,7 @@
 function onClick() {
+  var randomColor = Math.floor(Math.random()*16777215).toString(16);
   const background = document.querySelector("body > div > div.one");
-  background.style.backgroundColor = 'black';
+  background.style.backgroundColor = "#" + randomColor;
   console.log('hi');
 }
 
