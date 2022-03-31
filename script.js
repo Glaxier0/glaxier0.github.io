@@ -1,5 +1,5 @@
 function onClick() {
-  console.log('clicked');
+  document.body.style.backGroundColor = 'salmon';
 }
 
 const button = document.querySelector('button');
