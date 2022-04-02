@@ -47,11 +47,13 @@ body {
 h1 {
   color: #1690B3;
   font-size: 3em;
+  margin-bottom: auto;
 }
 
 h2 {
   color: #1690B3;
   font-size: 1em;
+  margin-top: auto;
 }
 
 h3 {
