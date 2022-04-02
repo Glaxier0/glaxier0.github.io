@@ -8,38 +8,38 @@
   gap: 15px;
   grid-auto-rows: minmax(100px, auto);
 }
-.one {
+.sum {
   grid-column: 1/4;
   grid-row: 1 / 4;
   text-align: center;
   border-radius: 40px;
 
 }
-.two {
+.projects {
   text-align: center;
   grid-column: 1;
   grid-row: 4 / 8;
   border-radius: 40px;
 }
-.three {
+.education {
   text-align: center;
   grid-column: 2;
   grid-row: 4 / 6;
   border-radius: 40px;
 }
-.four {
+.skills {
   text-align: center;
   grid-column: 3;
   grid-row: 4 / 6;
   border-radius: 40px;
 }
-.five {
+.languages {
   text-align: center;
   grid-column: 2;
   grid-row: 6 / 8;
   border-radius: 40px;
 }
-.six {
+.contact {
   text-align: center;
   grid-column: 3;
   grid-row: 6 / 8;
