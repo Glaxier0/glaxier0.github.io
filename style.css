@@ -1,5 +1,6 @@
 .background {
-  background-color: rgba(211, 211, 211, 0.5); 
+    background-color: white;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/500163/registration-mark--light.svg);
 }
 .wrapper {
   display: grid;
@@ -10,7 +11,6 @@
 .one {
   grid-column: 1/4;
   grid-row: 1 / 4;
-  background-color: rgb(8, 164, 175);
   text-align: center;
   border-radius: 40px;
 
@@ -19,34 +19,37 @@
   text-align: center;
   grid-column: 1;
   grid-row: 4 / 8;
-  background-color: rgb(8, 164, 175);
   border-radius: 40px;
 }
 .three {
   text-align: center;
   grid-column: 2;
   grid-row: 4 / 6;
-  background-color: rgb(8, 164, 175);
   border-radius: 40px;
 }
 .four {
   text-align: center;
   grid-column: 3;
   grid-row: 4 / 6;
-  background-color: rgb(8, 164, 175);
   border-radius: 40px;
 }
 .five {
   text-align: center;
   grid-column: 2;
   grid-row: 6 / 8;
-  background-color: rgb(8, 164, 175);
   border-radius: 40px;
 }
 .six {
   text-align: center;
   grid-column: 3;
   grid-row: 6 / 8;
-  background-color: rgb(8, 164, 175);
   border-radius: 40px;
+}
+
+h1 {
+  color: #1690B3
+}
+
+h2 {
+  color: #ED5E11
 }
