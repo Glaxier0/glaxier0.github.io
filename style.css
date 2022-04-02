@@ -53,3 +53,8 @@ h1 {
 h2 {
   color: #ED5E11
 }
+
+a {
+  text-decoration: none;
+  color: #1690B3;
+}
