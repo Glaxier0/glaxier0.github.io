@@ -40,6 +40,10 @@
   grid-row: 6 / 8;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 h1 {
   color: #1690B3
 }
