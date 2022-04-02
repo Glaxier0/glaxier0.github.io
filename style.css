@@ -5,7 +5,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  gap: 2px;
   grid-auto-rows: minmax(100px, auto);
 }
 .sum {
@@ -45,15 +45,18 @@ body {
 }
 
 h1 {
-  color: #1690B3
+  color: #1690B3;
+  font-size: 3em;
 }
 
 h2 {
-  color: #1690B3
+  color: #1690B3;
+  font-size: 1em;
 }
 
 h3 {
-  color: #ED5E11
+  color: #ED5E11;
+  font-size: 2em;
 }
 
 a {
