@@ -1,370 +1,419 @@
 @charset "UTF-8";
 html {
-  box-sizing: border-box;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  color: #70716F;
-  font-weight: 300;
-  font-family: "Abel", sans-serif;
-  background-color: white;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/500163/registration-mark--light.svg);
-  background-repeat: no-repeat;
-  background-position: center 2rem;
-  background-size: contain;
+    color: #70716F;
+    font-weight: 300;
+    font-family: "Abel", sans-serif;
+    background-color: white;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/500163/registration-mark--light.svg);
+    background-repeat: no-repeat;
+    background-position: center 2rem;
+    background-size: contain;
 }
 
 a {
-  color: #333333;
-  text-decoration: none;
-  position: relative;
+    color: #333333;
+    text-decoration: none;
+    position: relative;
 }
+
 a:before {
-  content: "";
-  background-color: rgba(22, 144, 179, 0.2);
-  width: 100%;
-  height: 5px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+    content: "";
+    background-color: rgba(22, 144, 179, 0.2);
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
+
 a:hover {
-  color: #137e9c;
+    color: #137e9c;
 }
+
 a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 .wrap {
-  max-width: 1200px;
-  margin: 1rem;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-areas: "id" "statement" "connect" "project" "skills";
+    max-width: 1200px;
+    margin: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: "id" "statement" "connect" "project" "skills";
 }
+
 @media (min-width: 601px) {
-  .wrap {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "id        id         id        " "statement statement  connect   " "skills    project project";
-  }
+    .wrap {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "id        id         id        " "statement statement  connect   " "skills    project project";
+    }
 }
+
 @media (min-width: 761px) {
-  .wrap {
-    margin: 2rem;
-    grid-template-areas: "statement statement  connect   " "id        id         connect   " "skills    project project";
-  }
+    .wrap {
+        margin: 2rem;
+        grid-template-areas: "statement statement  connect   " "id        id         connect   " "skills    project project";
+    }
 }
+
 @media (min-width: 1021px) {
-  .wrap {
-    margin: 2rem auto;
-    padding: 2rem;
-    grid-gap: 2rem;
-  }
+    .wrap {
+        margin: 2rem auto;
+        padding: 2rem;
+        grid-gap: 2rem;
+    }
 }
 
 .id {
-  grid-area: id;
+    grid-area: id;
 }
 
 .connect {
-  grid-area: connect;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-end;
+    grid-area: connect;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
 }
+
 .connect li {
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 2rem;
-  min-height: 2rem;
-  margin: 0.5rem 0;
-  padding-left: 2.5rem;
-  display: flex;
-  align-items: center;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 2rem;
+    min-height: 2rem;
+    margin: 0.5rem 0;
+    padding-left: 2.5rem;
+    display: flex;
+    align-items: center;
 }
+
 @media (min-width: 761px) {
-  .connect li {
-    margin: 1rem 0;
-  }
+    .connect li {
+        margin: 1rem 0;
+    }
 }
+
 .connect li#connect__address {
-  background-image: url(assets/images/home.png);
+    background-image: url(assets/images/home.png);
 }
+
 .connect li#connect__phone {
-  background-image: url(assets/images/phone-logo.png);
+    background-image: url(assets/images/phone-logo.png);
 }
+
 .connect li#connect__email {
-  background-image: url(assets/images/mail-logo.png);
+    background-image: url(assets/images/mail-logo.png);
 }
+
 .connect li#connect__behance {
-  background-image: url(assets/images/github.png);
+    background-image: url(assets/images/github.png);
 }
+
 .connect li#connect__linkedin {
-  background-image: url(assets/images/linkedin-logo.png);
+    background-image: url(assets/images/linkedin-logo.png);
 }
 
 .statement {
-  grid-area: statement;
+    grid-area: statement;
 }
+
 @media (min-width: 1021px) {
-  .statement {
-    padding-left: 7.5rem;
-  }
+    .statement {
+        padding-left: 7.5rem;
+    }
 }
 
 .project {
-  grid-area: project;
+    grid-area: project;
 }
+
 .project ul li {
-  margin: 1rem 0;
-  display: grid;
+    margin: 1rem 0;
+    display: grid;
 }
+
 @media (min-width: 761px) {
-  .project ul li {
-    grid-template-columns: 22ch 1fr;
-  }
-  .project ul li h4, .project ul li h5, .project ul li p {
-    grid-column: 2/3;
-  }
-  .project ul li h6 {
-    grid-column: 1/2;
-    grid-row: 1;
-  }
+    .project ul li {
+        grid-template-columns: 22ch 1fr;
+    }
+
+    .project ul li h4, .project ul li h5, .project ul li p {
+        grid-column: 2/3;
+    }
+
+    .project ul li h6 {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
 }
+
 @media (min-width: 1021px) {
-  .project ul li {
-    grid-template-columns: 25ch 1fr;
-  }
+    .project ul li {
+        grid-template-columns: 25ch 1fr;
+    }
 }
 
 .skills {
-  grid-area: skills;
+    grid-area: skills;
 }
+
 .skills ul {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
+
 .skills ul li {
-  margin: 1rem 0;
+    margin: 1rem 0;
 }
+
 .skills .skills__web li,
 .skills .skills__graphic li {
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 4rem;
-  min-height: 4rem;
-  padding-left: 5rem;
-  display: flex;
-  align-items: center;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 4rem;
+    min-height: 4rem;
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
 }
+
 .skills .skills__web li#skills__java,
 .skills .skills__graphic li#skills__java {
-  background-image: url(assets/images/java.png);
+    background-image: url(assets/images/java.png);
 }
+
 .skills .skills__web li#skills__spring,
 .skills .skills__graphic li#skills__spring {
-  background-image: url(assets/images/spring.png);
+    background-image: url(assets/images/spring.png);
 }
+
 .skills .skills__web li#skills__js,
 .skills .skills__graphic li#skills__js {
-  background-image: url(assets/images/javascript.png);
+    background-image: url(assets/images/javascript.png);
 }
+
 .skills .skills__web li#skills__node,
 .skills .skills__graphic li#skills__node {
-  background-image: url(assets/images/nodejs.png);
+    background-image: url(assets/images/nodejs.png);
 }
+
 .skills .skills__web li#skills__git,
 .skills .skills__graphic li#skills__git {
-  background-image: url(assets/images/git.png);
+    background-image: url(assets/images/git.png);
 }
+
 .skills .skills__web li#skills__postgres,
 .skills .skills__graphic li#skills__postgres {
-  background-image: url(assets/images/postgresql.png);
+    background-image: url(assets/images/postgresql.png);
 }
+
 .skills .skills__web li#skills__mongodb,
 .skills .skills__graphic li#skills__mongodb {
-  background-image: url(assets/images/mongodb.png);
+    background-image: url(assets/images/mongodb.png);
 }
+
 .skills .skills__web li#skills__redis,
 .skills .skills__graphic li#skills__redis {
-  background-image: url(assets/images/redis.png);
+    background-image: url(assets/images/redis.png);
 }
 
 h1 {
-  color: #1690B3;
-  font-weight: 700;
-  font-size: 14vw;
-  font-family: "Montserrat", sans-serif;
+    color: #1690B3;
+    font-weight: 700;
+    font-size: 14vw;
+    font-family: "Montserrat", sans-serif;
 }
+
 @media (min-width: 421px) {
-  h1 {
-    font-size: 3.5rem;
-  }
+    h1 {
+        font-size: 3.5rem;
+    }
 }
+
 @media (min-width: 601px) {
-  h1 {
-    font-size: 9.8vw;
-  }
+    h1 {
+        font-size: 9.8vw;
+    }
 }
+
 @media (min-width: 761px) {
-  h1 {
-    font-size: 6.2vw;
-  }
+    h1 {
+        font-size: 6.2vw;
+    }
 }
+
 @media (min-width: 1021px) {
-  h1 {
-    font-size: 4rem;
-    text-align: center;
-  }
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
 }
 
 h2 {
-  color: #333333;
-  font-size: 8vw;
-  margin: 0.5rem 0;
+    color: #333333;
+    font-size: 8vw;
+    margin: 0.5rem 0;
 }
+
 @media (min-width: 601px) {
-  h2 {
-    font-size: 6vw;
-  }
+    h2 {
+        font-size: 6vw;
+    }
 }
+
 @media (min-width: 761px) {
-  h2 {
-    font-size: 4vw;
-    text-align: right;
-  }
+    h2 {
+        font-size: 4vw;
+        text-align: right;
+    }
 }
+
 @media (min-width: 1021px) {
-  h2 {
-    font-size: 2.75rem;
-  }
+    h2 {
+        font-size: 2.75rem;
+    }
 }
 
 h3 {
-  color: #ED5E11;
-  font-weight: 700;
-  font-size: 1.75rem;
-  font-family: "Montserrat", sans-serif;
-  margin-top: 1rem;
+    color: #ED5E11;
+    font-weight: 700;
+    font-size: 1.75rem;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 1rem;
 }
+
 @media (min-width: 1021px) {
-  h3 {
-    font-size: 2rem;
-  }
+    h3 {
+        font-size: 2rem;
+    }
 }
 
 h4 {
-  color: #1690B3;
-  font-weight: 700;
-  font-size: 1.25rem;
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 0.25rem;
+    color: #1690B3;
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0.25rem;
 }
+
 @media (min-width: 1021px) {
-  h4 {
-    font-size: 1.5rem;
-  }
+    h4 {
+        font-size: 1.5rem;
+    }
 }
 
 h5 {
-  color: #333333;
-  font-size: 1.125rem;
+    color: #333333;
+    font-size: 1.125rem;
 }
+
 @media (min-width: 1021px) {
-  h5 {
-    font-size: 1.25rem;
-  }
+    h5 {
+        font-size: 1.25rem;
+    }
 }
 
 h6 {
-  color: #8AAAB3;
-  font-weight: 700;
-  font-size: 1.125rem;
-  font-family: "Montserrat", sans-serif;
-  margin-top: 0.75rem;
+    color: #8AAAB3;
+    font-weight: 700;
+    font-size: 1.125rem;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0.75rem;
 }
+
 @media (min-width: 761px) {
-  h6 {
-    font-size: 1.25rem;
-    text-align: right;
-    margin: 0;
-    padding-right: 2.25rem;
-    position: relative;
-  }
-  h6:after {
-    content: "•";
-    color: #ED5E11;
-    font-size: 3rem;
-    line-height: 1;
-    padding: 0 0.5rem;
-    position: absolute;
-    top: -1rem;
-    right: 0;
-  }
+    h6 {
+        font-size: 1.25rem;
+        text-align: right;
+        margin: 0;
+        padding-right: 2.25rem;
+        position: relative;
+    }
+
+    h6:after {
+        content: "•";
+        color: #ED5E11;
+        font-size: 3rem;
+        line-height: 1;
+        padding: 0 0.5rem;
+        position: absolute;
+        top: -1rem;
+        right: 0;
+    }
 }
+
 @media (min-width: 1021px) {
-  h6 {
-    font-size: 1.5rem;
-  }
+    h6 {
+        font-size: 1.5rem;
+    }
 }
 
 p {
-  line-height: 1.5;
+    line-height: 1.5;
 }
+
 @media (min-width: 1021px) {
-  p {
-    font-size: 1.125rem;
-  }
+    p {
+        font-size: 1.125rem;
+    }
 }
+
 p.statement {
-  color: #6b949f;
+    color: #6b949f;
 }
 
 @media (min-width: 761px) {
-  .project h3 {
-    text-indent: calc( 9ch + .5rem );
-  }
+    .project h3 {
+        text-indent: calc(9ch + .5rem);
+    }
 }
+
 .project p {
-  font-family: "Kreon", serif;
-  margin: 0.5rem 0;
+    font-family: "Kreon", serif;
+    margin: 0.5rem 0;
 }
 
 .connect,
 .skills {
-  color: #333333;
+    color: #333333;
 }
+
 .connect strong,
 .skills strong {
-  color: #1690B3;
+    color: #1690B3;
 }
 
 .skills__web, .skills__graphic {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
+
 @media (min-width: 1021px) {
-  .skills__web, .skills__graphic {
-    font-size: 1.5rem;
-  }
+    .skills__web, .skills__graphic {
+        font-size: 1.5rem;
+    }
 }
 
 .skills__etc {
-  color: #70716F;
+    color: #70716F;
 }
+
 @media (min-width: 1021px) {
-  .skills__etc {
-    font-size: 1.125rem;
-  }
+    .skills__etc {
+        font-size: 1.125rem;
+    }
 }
