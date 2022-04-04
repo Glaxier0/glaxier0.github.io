@@ -101,19 +101,19 @@ a:hover:before {
   }
 }
 .connect li#connect__address {
-  background-image: url(../assets/images/home.png);
+  background-image: url(assets/images/home.png);
 }
 .connect li#connect__phone {
-  background-image: url(../assets/images/phone-logo.png);
+  background-image: url(assets/images/phone-logo.png);
 }
 .connect li#connect__email {
-  background-image: url(../assets/images/mail-logo.png);
+  background-image: url(assets/images/mail-logo.png);
 }
 .connect li#connect__behance {
-  background-image: url(../assets/images/github.png);
+  background-image: url(assets/images/github.png);
 }
 .connect li#connect__linkedin {
-  background-image: url(../assets/images/linkedin-logo.png);
+  background-image: url(assets/images/linkedin-logo.png);
 }
 
 .statement {
@@ -171,35 +171,35 @@ a:hover:before {
 }
 .skills .skills__web li#skills__java,
 .skills .skills__graphic li#skills__java {
-  background-image: url(../assets/images/java.png);
+  background-image: url(assets/images/java.png);
 }
 .skills .skills__web li#skills__spring,
 .skills .skills__graphic li#skills__spring {
-  background-image: url(../assets/images/spring.png);
+  background-image: url(assets/images/spring.png);
 }
 .skills .skills__web li#skills__js,
 .skills .skills__graphic li#skills__js {
-  background-image: url(../assets/images/javascript.png);
+  background-image: url(assets/images/javascript.png);
 }
 .skills .skills__web li#skills__node,
 .skills .skills__graphic li#skills__node {
-  background-image: url(../assets/images/nodejs.png);
+  background-image: url(assets/images/nodejs.png);
 }
 .skills .skills__web li#skills__git,
 .skills .skills__graphic li#skills__git {
-  background-image: url(../assets/images/git.png);
+  background-image: url(assets/images/git.png);
 }
 .skills .skills__web li#skills__postgres,
 .skills .skills__graphic li#skills__postgres {
-  background-image: url(../assets/images/postgresql.png);
+  background-image: url(assets/images/postgresql.png);
 }
 .skills .skills__web li#skills__mongodb,
 .skills .skills__graphic li#skills__mongodb {
-  background-image: url(../assets/images/mongodb.png);
+  background-image: url(assets/images/mongodb.png);
 }
 .skills .skills__web li#skills__redis,
 .skills .skills__graphic li#skills__redis {
-  background-image: url(../assets/images/redis.png);
+  background-image: url(assets/images/redis.png);
 }
 
 h1 {
